@@ -1,16 +1,20 @@
 .Cabecera
 {
-  background-color: red;
-  height: 25%;
-  position: fixed;
+  background-color: rgba(255,0,0,0.70);
 }
 
 .Cuerpo
 {
-  background: url("img/foto.jpg");
-  margin-top:25%;
-  height: 75%;
-  position: fixed;
+  background: url("../img/foto.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: blue;
+}
+
+.fondo
+{
+  background-color: rgba(120, 120, 0, 0.5);
 }
 
 .estilonav
@@ -21,4 +25,11 @@
 .estilonav>a
 {
   margin:2%;
+}
+
+.borde
+{
+  border-bottom: solid 2px;
+  text-align: center;
+
 }
