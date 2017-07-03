@@ -1,4 +1,16 @@
+.cuerpo
+{
+  background: url(../img/foto.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .estilosfoundation
 {
-  background-color: pink;
+  background-color: rgba(255, 45, 94, 0.70);
+;
+}
+img
+{
+  padding: 1%;
 }
